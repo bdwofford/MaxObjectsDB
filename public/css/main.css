@@ -1,0 +1,62 @@
+/*Global variables*/
+:root{
+    --Max8DefaultUIColor:#333333;
+    --Max8DefaultUIColorDarker:#222222;
+    --Max8DefaultUIColorLighter:#444444;
+    --Max8DefaultBGColor: #e5e5e5;
+}
+
+body{
+    background-color: var(--Max8DefaultBGColor);
+}
+
+.btn{
+    background-color: var(--Max8DefaultUIColor);
+    color: white;
+}
+.btn:hover{
+    background-color: var(--Max8DefaultUIColorDarker);
+    color: white;
+}
+
+nav{
+    background-color: var(--Max8DefaultUIColor);
+    color: white;
+}
+
+#navBarTitle{
+    color: white;
+}
+
+.max8Color{
+    background-color: var(--Max8DefaultUIColor);
+}
+
+
+.dropdown-item{
+    color: white;
+    background-color: var(--Max8DefaultUIColor);
+}
+
+.dropdown-item:hover{
+    background-color: var(--Max8DefaultUIColorDarker);
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: var(--Max8DefaultUIColor);
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.searchGroup{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
