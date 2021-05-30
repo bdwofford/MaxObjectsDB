@@ -4,3 +4,5 @@ Dependencies:
 * serve-favicon
 
 
+TEST
+
