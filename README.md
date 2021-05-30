@@ -3,6 +3,3 @@ Dependencies:
 * passport-google-oauth
 * serve-favicon
 
-
-TEST
-
