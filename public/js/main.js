@@ -13,6 +13,8 @@ searchDropdown.forEach(categoryButton=>{
     }
 })
 
+//There is another dropdown for the OS selection (#myDropdown_OS  >All >Mac >Windows)
+
 //Grab the search term as its being written
 const inputSearch = document.querySelector('#inputSearch')
 inputSearch.oninput = (event)=>{
