@@ -91,8 +91,8 @@
 -->
 
 <!--new Search Bar-->
-<nav class="navbar navbar-light bg-light pb-3 pt-4">
-    <div class="container d-sm-flex justify-content-center">
+<nav class="navbar navbar-light bg-secondary pb-4 pt-4">
+    <div class="container justify-content-center">
       <a class="navbar-brand">Search The Database</a>
       <form class="d-flex"><div class="input-group mm-1">
         <button id="myDropdown" class="btn dropdown-toggle" data-bs-toggle="dropdown"> Category</button>
@@ -139,16 +139,33 @@
     </div>
   </nav>
 
-<!--Notes, Feature, News-->
-<div class="container ">
-    <div class="row d-flex bg-light pr-2 p-2">
-        <div class="col-1 bg-light text-black h2">Notes</div>
-        <div class="col-auto bg-light">Professor Manzo has commissioned this new website! Can it be done? /// Advertise your Cialis here</div>
+<!--Notes-->
+<div class="container">
+    
+    <div class="row row-cols-1 bg-light p-2">
+        <span class="border border-5">
+        <div class="col-auto bg-light text-black h2">Notes</div>
+        <div class="col-auto bg-light">
+            <p class="lead"> 
+                Professor Manzo has commissioned this new website! Can it be done? /// Advertise your Cialis here
+            </p>
+        </div>
+    </span>
     </div>
-    <div class="row">
-        <div class="col bg-white"><div class="container bg-light h2 justify-content-center">Featured Item</div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        
-        <div class="col bg-white"><div class="container bg-light h2">News</div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+
+,<!--Feature, News-->
+<div class="container">
+    <div class="row row-cols-2 bg-light p-2">
+        <span class="border border-5">
+            <div class="col bg-light h2 order-1">Featured Item</div>
+            <div class="col bg-white order-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </span>
+        <span class="border border-5">
+            <div class="col bg-light h2 order-2">News</div>
+            <div class="col bg-white order-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </span>
+    </div>
 </div>
 
 <!--Bootstrap scripts-->
