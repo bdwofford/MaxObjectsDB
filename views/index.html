@@ -53,7 +53,7 @@
 </div>
 
 
-<!--Search bar
+<!-- original Search bar
 <div class="searchGroup">
     <div class="container">
         <div class="input-group mt-5">
@@ -91,6 +91,7 @@
 -->
 
 <!--new Search Bar-->
+
 <nav class="navbar navbar-light bg-secondary pb-4 pt-4">
     <div class="container justify-content-center">
       <a class="navbar-brand">Search The Database</a>
@@ -122,13 +123,16 @@
                 <button class="dropdown-item">Standalones</button>
             </li>
         </ul>
-        <button id="myDropdown_OS" class="btn dropdown-toggle" data-bs-toggle="dropdown"> Operating System</button>
+        <button id="myDropdown_OS" class="btn dropdown-toggle" data-bs-toggle="dropdown"> OS</button>
         <ul class="dropdown-menu">
             <li>
                 <button class="btn dropdown-item">All</button>
             </li>
             <li>
-                <button class="dropdown-item">Mac</button>
+                <button class="dropdown-item">macOS</button>
+            </li>
+            <li>
+                <button class="dropdown-item">Linux</button>
             </li>
             <li>
                 <button class="dropdown-item">Windows</button>
@@ -137,9 +141,10 @@
         <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
     </div>
-  </nav>
+</nav>
 
 <!--Notes-->
+
 <div class="container">
     
     <div class="row row-cols-1 bg-light p-2">
@@ -154,19 +159,73 @@
     </div>
 </div>
 
-<!--Feature, News-->
+<!--Featured Items-->
+
 <div class="container">
     <div class="row row-cols-2 bg-light p-2">
         <span class="border border-5">
-            <div class="col bg-light h2 order-1">Featured Item</div>
-            <div class="col bg-white order-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="col order-1">
+                <div class="container bg-light h2 ">Featured Items</div>
+                <div class="container">
+                    <div class="row row-cols-1 gy-2">
+
+    <!--Start Featured Item List-->
+
+                        <span class="border border-2">
+                            <div class="col bg-light">Super Dope Object</div>
+                        </span>
+                        <span class="border border-2">
+                            <div class="col bg-light">EARMIR V.2</div>
+                        </span>
+                        <span class="border border-2">
+                            <div class="col bg-light">Fart Bot Ultra</div>
+                        </span>
+                        <span class="border border-2">
+                            <div class="col bg-light">Max for Live Plugin 6</div>
+                        </span>
+                    </div>
+                </div>
+            </div>
         </span>
+
+<!--News-->
         <span class="border border-5">
-            <div class="col bg-light h2 order-2">News</div>
-            <div class="col bg-white order-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="col order-2">
+                <div class="col bg-light h2">News</div>
+                <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div>
         </span>
     </div>
 </div>
+
+
+<!--Footer-->
+
+<div class="fixed-bottom">
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-auto me-auto">
+                    <span class="text-muted">Copyright Information or Something</span>
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Contact Us</button>
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Contact Us</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            Contact Information
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+    
 
 <!--Bootstrap scripts-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" ,
